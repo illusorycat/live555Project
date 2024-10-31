@@ -1,0 +1,36 @@
+﻿  DynamicRTSPServer.cpp
+  live555MediaServer.cpp
+  正在生成代码...
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _BIO_new_socket，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_CTX_new，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_CTX_free，函数 "protected: void __thiscall TLSState::reset(void)" (?reset@TLSState@@IAEXXZ) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_set_bio，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_CTX_use_PrivateKey_file，函数 "private: bool __thiscall ServerTLSState::setup(int)" (?setup@ServerTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_CTX_use_certificate_file，函数 "private: bool __thiscall ServerTLSState::setup(int)" (?setup@ServerTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_new，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_free，函数 "protected: void __thiscall TLSState::reset(void)" (?reset@TLSState@@IAEXXZ) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_accept，函数 "public: int __thiscall ServerTLSState::accept(int)" (?accept@ServerTLSState@@QAEHH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_connect，函数 "public: int __thiscall ClientTLSState::connect(int)" (?connect@ClientTLSState@@QAEHH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_read，函数 "public: int __thiscall TLSState::read(unsigned char *,unsigned int)" (?read@TLSState@@QAEHPAEI@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_write，函数 "public: int __thiscall TLSState::write(char const *,unsigned int)" (?write@TLSState@@QAEHPBDI@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_get_error，函数 "public: int __thiscall ServerTLSState::accept(int)" (?accept@ServerTLSState@@QAEHH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _TLS_server_method，函数 "private: bool __thiscall ServerTLSState::setup(int)" (?setup@ServerTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _TLS_client_method，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_shutdown，函数 "protected: void __thiscall TLSState::reset(void)" (?reset@TLSState@@IAEXXZ) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _SSL_set_connect_state，函数 "private: bool __thiscall ClientTLSState::setup(int)" (?setup@ClientTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _OPENSSL_init_ssl，函数 "protected: void __thiscall TLSState::initLibrary(void)" (?initLibrary@TLSState@@IAEXXZ) 中引用了该符号
+liveMedia.lib(TLSState.obj) : error LNK2019: 无法解析的外部符号 _ERR_print_errors_fp，函数 "private: bool __thiscall ServerTLSState::setup(int)" (?setup@ServerTLSState@@AAE_NH@Z) 中引用了该符号
+liveMedia.lib(SRTPCryptographicContext.obj) : error LNK2019: 无法解析的外部符号 _EVP_EncryptInit，函数 "private: void __thiscall SRTPCryptographicContext::cryptData(struct SRTPCryptographicContext::derivedKeys &,unsigned __int64,unsigned int,unsigned char *,unsigned int)" (?cryptData@SRTPCryptographicContext@@AAEXAAUderivedKeys@1@_KIPAEI@Z) 中引用了该符号
+liveMedia.lib(SRTPCryptographicContext.obj) : error LNK2019: 无法解析的外部符号 _EVP_EncryptUpdate，函数 "private: void __thiscall SRTPCryptographicContext::cryptData(struct SRTPCryptographicContext::derivedKeys &,unsigned __int64,unsigned int,unsigned char *,unsigned int)" (?cryptData@SRTPCryptographicContext@@AAEXAAUderivedKeys@1@_KIPAEI@Z) 中引用了该符号
+liveMedia.lib(SRTPCryptographicContext.obj) : error LNK2019: 无法解析的外部符号 _EVP_CIPHER_CTX_new，函数 "private: void __thiscall SRTPCryptographicContext::cryptData(struct SRTPCryptographicContext::derivedKeys &,unsigned __int64,unsigned int,unsigned char *,unsigned int)" (?cryptData@SRTPCryptographicContext@@AAEXAAUderivedKeys@1@_KIPAEI@Z) 中引用了该符号
+liveMedia.lib(SRTPCryptographicContext.obj) : error LNK2019: 无法解析的外部符号 _EVP_CIPHER_CTX_free，函数 "private: void __thiscall SRTPCryptographicContext::cryptData(struct SRTPCryptographicContext::derivedKeys &,unsigned __int64,unsigned int,unsigned char *,unsigned int)" (?cryptData@SRTPCryptographicContext@@AAEXAAUderivedKeys@1@_KIPAEI@Z) 中引用了该符号
+liveMedia.lib(SRTPCryptographicContext.obj) : error LNK2019: 无法解析的外部符号 _EVP_aes_128_ecb，函数 "private: void __thiscall SRTPCryptographicContext::cryptData(struct SRTPCryptographicContext::derivedKeys &,unsigned __int64,unsigned int,unsigned char *,unsigned int)" (?cryptData@SRTPCryptographicContext@@AAEXAAUderivedKeys@1@_KIPAEI@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_MD_CTX_new，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_MD_CTX_free，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_DigestUpdate，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_DigestInit，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_DigestFinal，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+liveMedia.lib(HMAC_SHA1.obj) : error LNK2019: 无法解析的外部符号 _EVP_sha1，函数 "void __cdecl sha1(unsigned char *,unsigned char const *,unsigned int,unsigned char const *,unsigned int)" (?sha1@@YAXPAEPBEI1I@Z) 中引用了该符号
+D:\WorkSpace\sourceCode\live555\Live555Project\thrid\lib\libssl.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\WorkSpace\sourceCode\live555\Live555Project\thrid\lib\libcrypto.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\WorkSpace\sourceCode\live555\Live555Project\Debug\mediaServer.exe : fatal error LNK1120: 30 个无法解析的外部命令

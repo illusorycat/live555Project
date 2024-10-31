@@ -1,0 +1,22 @@
+﻿  GroupEId.cpp
+  Groupsock.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\Groupsock.cpp(401,66): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\Groupsock.cpp(403,38): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\Groupsock.cpp(431,43): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\Groupsock.cpp(440,35): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\Groupsock.cpp(453,57): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+  GroupsockHelper.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\GroupsockHelper.cpp(104,16): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\GroupsockHelper.cpp(1042,22): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  IOHandlers.cpp
+  NetAddress.cpp
+  NetInterface.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\NetInterface.cpp(98,62): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\NetInterface.cpp(103,44): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\NetInterface.cpp(115,60): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+  正在生成代码...
+  inet.c
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\inet.c(268,53): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\inet.c(303,51): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\inet.c(334,53): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+  groupsock.vcxproj -> D:\WorkSpace\sourceCode\live555\Live555Project\x64\Debug\groupsock.lib

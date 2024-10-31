@@ -1,0 +1,22 @@
+﻿  showAudioInputPorts.cpp
+  WindowsAudioInputDevice_common.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_common.cpp(141,38): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“WAVEHDR *”
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_common.cpp(181,1): warning C4311: “类型强制转换”: 从“void (__cdecl *)(HWAVEIN,UINT,DWORD,DWORD,DWORD)”到“DWORD”的指针截断
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_common.cpp(181,1): warning C4302: “类型强制转换”: 从“void (__cdecl *)(HWAVEIN,UINT,DWORD,DWORD,DWORD)”到“DWORD”截断
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_common.cpp(250,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_common.cpp(292,21): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  WindowsAudioInputDevice_mixer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.cpp(275,10): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“HMIXEROBJ”
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.cpp(288,8): warning C4311: “类型强制转换”: 从“HMIXER”到“UINT”的指针截断
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.cpp(288,8): warning C4302: “类型强制转换”: 从“HMIXER”到“UINT”截断
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.cpp(307,31): warning C4311: “类型强制转换”: 从“HMIXER”到“UINT”的指针截断
+D:\WorkSpace\sourceCode\live555\Live555Project\WindowsAudioInputDevice\WindowsAudioInputDevice_mixer.cpp(307,31): warning C4302: “类型强制转换”: 从“HMIXER”到“UINT”截断
+  WindowsAudioInputDevice_noMixer.cpp
+  正在生成代码...
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "public: static class AudioInputDevice * __cdecl AudioInputDevice::createNew(class UsageEnvironment &,int,unsigned char,unsigned char,unsigned int,unsigned int)" (?createNew@AudioInputDevice@@SAPEAV1@AEAVUsageEnvironment@@HEEII@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "public: static class AudioPortNames * __cdecl AudioInputDevice::getPortNames(void)" (?getPortNames@AudioInputDevice@@SAPEAVAudioPortNames@@XZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: __cdecl WindowsAudioInputDevice::WindowsAudioInputDevice(class UsageEnvironment &,int,unsigned char,unsigned char,unsigned int,unsigned int,bool &)" (??0WindowsAudioInputDevice@@AEAA@AEAVUsageEnvironment@@HEEIIAEA_N@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: virtual __cdecl WindowsAudioInputDevice::~WindowsAudioInputDevice(void)" (??1WindowsAudioInputDevice@@EEAA@XZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: static void __cdecl WindowsAudioInputDevice::initializeIfNecessary(void)" (?initializeIfNecessary@WindowsAudioInputDevice@@CAXXZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: virtual bool __cdecl WindowsAudioInputDevice::setInputPort(int)" (?setInputPort@WindowsAudioInputDevice@@EEAA_NH@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+  WindowsAudioInputDevice.vcxproj -> D:\WorkSpace\sourceCode\live555\Live555Project\x64\Debug\WindowsAudioInputDevice.lib
