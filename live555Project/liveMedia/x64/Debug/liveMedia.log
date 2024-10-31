@@ -1,0 +1,406 @@
+﻿  AC3AudioFileServerMediaSubsession.cpp
+  AC3AudioRTPSink.cpp
+  AC3AudioRTPSource.cpp
+  AC3AudioStreamFramer.cpp
+  ADTSAudioFileServerMediaSubsession.cpp
+  ADTSAudioFileSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ADTSAudioFileSource.cpp(150,57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ADTSAudioStreamDiscreteFramer.cpp
+  AMRAudioFileServerMediaSubsession.cpp
+  AMRAudioFileSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\AMRAudioFileSink.cpp(79,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  AMRAudioFileSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\AMRAudioFileSource.cpp(156,47): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  AMRAudioRTPSink.cpp
+  AMRAudioRTPSource.cpp
+  AMRAudioSource.cpp
+  AudioInputDevice.cpp
+  AudioRTPSink.cpp
+  AVIFileSink.cpp
+  Base64.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\Base64.cpp(43,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  BasicUDPSink.cpp
+  BasicUDPSource.cpp
+  BitVector.cpp
+  正在生成代码...
+  正在编译...
+  ByteStreamFileSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ByteStreamFileSource.cpp(138,45): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  ByteStreamMemoryBufferSource.cpp
+  ByteStreamMultiFileSource.cpp
+  DeviceSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DeviceSource.cpp(125,54): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“u_int8_t *”
+  DigestAuthentication.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(116,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(116,49): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(123,60): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(123,60): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(130,40): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DigestAuthentication.cpp(130,40): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+  DVVideoFileServerMediaSubsession.cpp
+  DVVideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\DVVideoRTPSink.cpp(89,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  DVVideoRTPSource.cpp
+  DVVideoStreamFramer.cpp
+  EBMLNumber.cpp
+  FileServerMediaSubsession.cpp
+  FileSink.cpp
+  FramedFileSource.cpp
+  FramedFilter.cpp
+  FramedSource.cpp
+  GenericMediaServer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\GenericMediaServer.cpp(234,20): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+  GSMAudioRTPSink.cpp
+  H261VideoRTPSource.cpp
+  H263plusVideoFileServerMediaSubsession.cpp
+  H263plusVideoRTPSink.cpp
+  正在生成代码...
+  正在编译...
+  H263plusVideoRTPSource.cpp
+  H263plusVideoStreamFramer.cpp
+  H263plusVideoStreamParser.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H263plusVideoStreamParser.cpp(200,23): warning C4477: “fprintf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“__int64”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : 请考虑在格式字符串中使用“%llu”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : 请考虑在格式字符串中使用“%Iu”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H263plusVideoStreamParser.cpp(200,23): message : 请考虑在格式字符串中使用“%I64u”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H263plusVideoStreamParser.cpp(210,9): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  H264or5VideoFileSink.cpp
+  H264or5VideoRTPSink.cpp
+  H264or5VideoStreamDiscreteFramer.cpp
+  H264or5VideoStreamFramer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H264or5VideoStreamFramer.cpp(233,42): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H264or5VideoStreamFramer.cpp(233,36): warning C4244: “初始化”: 从“__int64”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H264or5VideoStreamFramer.cpp(715,41): warning C4018: “<”: 有符号/无符号不匹配
+  H264VideoFileServerMediaSubsession.cpp
+  H264VideoFileSink.cpp
+  H264VideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H264VideoRTPSink.cpp(119,46): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  H264VideoRTPSource.cpp
+  H264VideoStreamDiscreteFramer.cpp
+  H264VideoStreamFramer.cpp
+  H265VideoFileServerMediaSubsession.cpp
+  H265VideoFileSink.cpp
+  H265VideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\H265VideoRTPSink.cpp(164,24): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  H265VideoRTPSource.cpp
+  H265VideoStreamDiscreteFramer.cpp
+  H265VideoStreamFramer.cpp
+  HLSSegmenter.cpp
+  正在生成代码...
+  正在编译...
+  HMAC_SHA1.cpp
+  InputFile.cpp
+  JPEG2000VideoRTPSink.cpp
+  JPEG2000VideoRTPSource.cpp
+  JPEGVideoRTPSink.cpp
+  JPEGVideoRTPSource.cpp
+  JPEGVideoSource.cpp
+  Locale.cpp
+  MatroskaDemuxedTrack.cpp
+  MatroskaFile.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(815,104): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(816,86): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(821,65): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(909,52): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(914,85): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MatroskaFile.cpp(918,55): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+  MatroskaFileParser.cpp
+  MatroskaFileServerDemux.cpp
+  MatroskaFileServerMediaSubsession.cpp
+  Media.cpp
+  MediaSession.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MediaSession.cpp(803,75): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MediaSession.cpp(825,75): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MediaSession.cpp(1161,48): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MediaSession.cpp(1161,48): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+  MediaSink.cpp
+  MediaSource.cpp
+  MIKEY.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MIKEY.cpp(446,30): warning C4244: “=”: 从“u_int16_t”转换到“u_int8_t”，可能丢失数据
+  MP3ADU.cpp
+  MP3ADUdescriptor.cpp
+  正在生成代码...
+  正在编译...
+  MP3ADUinterleaving.cpp
+  MP3ADURTPSink.cpp
+  MP3ADURTPSource.cpp
+  MP3ADUTranscoder.cpp
+  MP3AudioFileServerMediaSubsession.cpp
+  MP3AudioMatroskaFileServerMediaSubsession.cpp
+  MP3FileSource.cpp
+  MP3Internals.cpp
+  MP3InternalsHuffman.cpp
+  MP3InternalsHuffmanTable.cpp
+  MP3StreamState.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MP3StreamState.cpp(341,39): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MP3Transcoder.cpp
+  MPEG1or2AudioRTPSink.cpp
+  MPEG1or2AudioRTPSource.cpp
+  MPEG1or2AudioStreamFramer.cpp
+  MPEG1or2Demux.cpp
+  MPEG1or2DemuxedElementaryStream.cpp
+  MPEG1or2DemuxedServerMediaSubsession.cpp
+  MPEG1or2FileServerDemux.cpp
+  MPEG1or2VideoFileServerMediaSubsession.cpp
+  正在生成代码...
+  正在编译...
+  MPEG1or2VideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG1or2VideoRTPSink.cpp(124,28): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *”
+  MPEG1or2VideoRTPSource.cpp
+  MPEG1or2VideoStreamDiscreteFramer.cpp
+  MPEG1or2VideoStreamFramer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG1or2VideoStreamFramer.cpp(205,26): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG1or2VideoStreamFramer.cpp(463,29): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *”
+  MPEG2IndexFromTransportStream.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2IndexFromTransportStream.cpp(620,32): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2IndexFromTransportStream.cpp(625,28): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  MPEG2TransportFileServerMediaSubsession.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp(185,64): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp(219,94): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+  MPEG2TransportStreamAccumulator.cpp
+  MPEG2TransportStreamDemux.cpp
+  MPEG2TransportStreamDemuxedTrack.cpp
+  MPEG2TransportStreamFramer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamFramer.cpp(233,73): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamFramer.cpp(238,36): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“char *”
+  MPEG2TransportStreamFromESSource.cpp
+  MPEG2TransportStreamFromPESSource.cpp
+  MPEG2TransportStreamIndexFile.cpp
+  MPEG2TransportStreamMultiplexor.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamMultiplexor.cpp(217,17): warning C4244: “=”: 从“u_int16_t”转换到“unsigned char”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamMultiplexor.cpp(310,49): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamMultiplexor.cpp(343,12): warning C4244: “=”: 从“u_int16_t”转换到“unsigned char”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamMultiplexor.cpp(356,27): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamMultiplexor.cpp(360,49): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  MPEG2TransportStreamParser.cpp
+  MPEG2TransportStreamParser_PAT.cpp
+  MPEG2TransportStreamParser_PMT.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_PMT.cpp(233,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_PMT.cpp(327,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_PMT.cpp(343,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_PMT.cpp(358,25): warning C4018: “<”: 有符号/无符号不匹配
+  MPEG2TransportStreamParser_STREAM.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_STREAM.cpp(65,55): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG2TransportStreamParser_STREAM.cpp(251,34): warning C4018: “>”: 有符号/无符号不匹配
+  MPEG2TransportStreamTrickModeFilter.cpp
+  MPEG2TransportUDPServerMediaSubsession.cpp
+  正在生成代码...
+  正在编译...
+  MPEG4ESVideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4ESVideoRTPSink.cpp(128,28): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MPEG4ESVideoRTPSource.cpp
+  MPEG4GenericRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4GenericRTPSink.cpp(63,28): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MPEG4GenericRTPSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4GenericRTPSource.cpp(88,65): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MPEG4LATMAudioRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4LATMAudioRTPSink.cpp(40,37): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MPEG4LATMAudioRTPSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4LATMAudioRTPSource.cpp(202,51): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4LATMAudioRTPSource.cpp(247,41): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MPEG4VideoFileServerMediaSubsession.cpp
+  MPEG4VideoStreamDiscreteFramer.cpp
+  MPEG4VideoStreamFramer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEG4VideoStreamFramer.cpp(655,30): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“void *”
+  MPEGVideoStreamFramer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  MPEGVideoStreamParser.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MPEGVideoStreamParser.hh(114,40): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  MultiFramedRTPSink.cpp
+  MultiFramedRTPSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\MultiFramedRTPSource.cpp(471,52): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  OggDemuxedTrack.cpp
+  OggFile.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(216,64): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(221,60): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(273,58): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(281,52): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(286,80): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFile.cpp(312,55): warning C4312: “类型强制转换”: 从“u_int32_t”转换到更大的“const char *”
+  OggFileParser.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFileParser.cpp(282,56): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  OggFileServerDemux.cpp
+  OggFileServerMediaSubsession.cpp
+  OggFileSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OggFileSink.cpp(229,56): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  OnDemandServerMediaSubsession.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OnDemandServerMediaSubsession.cpp(214,59): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OnDemandServerMediaSubsession.cpp(227,82): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OnDemandServerMediaSubsession.cpp(351,82): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OnDemandServerMediaSubsession.cpp(353,64): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\OnDemandServerMediaSubsession.cpp(468,24): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  ourMD5.cpp
+  OutputFile.cpp
+  PassiveServerMediaSubsession.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\PassiveServerMediaSubsession.cpp(114,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\PassiveServerMediaSubsession.cpp(178,61): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\PassiveServerMediaSubsession.cpp(205,113): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\PassiveServerMediaSubsession.cpp(232,111): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\PassiveServerMediaSubsession.cpp(238,66): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“const char *”
+  ProxyServerMediaSession.cpp
+  QCELPAudioRTPSource.cpp
+  QuickTimeFileSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\QuickTimeFileSink.cpp(1241,37): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\QuickTimeFileSink.cpp(2209,30): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\QuickTimeFileSink.cpp(2220,42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\QuickTimeFileSink.cpp(2325,73): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  QuickTimeGenericRTPSource.cpp
+  RawVideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RawVideoRTPSink.cpp(44,51): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RawVideoRTPSink.cpp(44,51): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+  RawVideoRTPSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RawVideoRTPSource.cpp(143,41): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  RTCP.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(42,1): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(53,1): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(53,1): warning C4312: “类型强制转换”: 从“long”转换到更大的“void *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(59,1): warning C4312: “类型强制转换”: 从“long”转换到更大的“char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(1201,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(1201,49): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTCP.cpp(1282,47): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  RTPInterface.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(99,47): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(104,46): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(118,47): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(475,63): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(489,61): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPInterface.cpp(498,66): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+  RTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSink.cpp(173,58): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSink.cpp(196,78): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSink.cpp(256,42): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSink.cpp(280,71): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSink.cpp(285,37): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+  RTPSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSource.cpp(147,42): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSource.cpp(178,68): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTPSource.cpp(183,37): warning C4312: “类型强制转换”: 从“long”转换到更大的“const char *”
+  RTSPClient.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(145,80): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(307,28): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(313,28): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(384,72): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(384,72): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(388,55): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(430,116): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(523,48): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(528,24): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(554,22): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(576,46): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(581,8): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(583,81): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(583,81): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(749,98): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(808,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(825,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(989,57): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(998,94): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1003,74): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1003,74): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1052,88): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1114,33): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1395,56): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1415,51): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1533,40): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1881,91): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1904,27): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPClient.cpp(1931,80): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  RTSPCommon.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPCommon.cpp(329,56): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPCommon.cpp(329,56): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+  RTSPRegisterSender.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPRegisterSender.cpp(35,114): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPRegisterSender.cpp(119,46): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPRegisterSender.cpp(125,121): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPRegisterSender.cpp(199,48): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPRegisterSender.cpp(205,99): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  RTSPServer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(267,84): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(270,52): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(277,84): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(298,59): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(301,56): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(314,84): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(328,57): warning C4312: “类型强制转换”: 从“int”转换到更大的“const char *”
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(428,57): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(462,46): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(795,88): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(961,27): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(984,68): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(984,68): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(999,26): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1189,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1189,49): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1207,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1207,49): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1720,58): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1720,58): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1781,41): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1844,47): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1954,57): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\RTSPServer.cpp(1969,42): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  RTSPServerRegister.cpp
+  ServerMediaSession.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(225,57): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(233,73): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(233,73): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(257,36): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(296,30): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\ServerMediaSession.cpp(320,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  SimpleRTPSink.cpp
+  正在生成代码...
+  正在编译...
+  SimpleRTPSource.cpp
+  SIPClient.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(46,72): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(46,72): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(50,55): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(69,42): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(73,50): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(79,46): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(118,113): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(145,36): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(194,26): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(219,43): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(223,42): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(244,23): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(253,59): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(281,22): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(295,40): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(547,35): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(573,29): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(629,36): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(672,11): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(682,8): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(714,11): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(724,8): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\SIPClient.cpp(895,72): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  SRTPCryptographicContext.cpp
+  StreamParser.cpp
+  StreamReplicator.cpp
+  T140TextRTPSink.cpp
+  TextRTPSink.cpp
+  TheoraVideoRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\TheoraVideoRTPSink.cpp(103,66): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  TheoraVideoRTPSource.cpp
+  TLSState.cpp
+  uLawAudioFilter.cpp
+  VideoRTPSink.cpp
+  VorbisAudioRTPSink.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\VorbisAudioRTPSink.cpp(112,65): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  VorbisAudioRTPSource.cpp
+  VP8VideoRTPSink.cpp
+  VP8VideoRTPSource.cpp
+  VP9VideoRTPSink.cpp
+  VP9VideoRTPSource.cpp
+  WAVAudioFileServerMediaSubsession.cpp
+  WAVAudioFileSource.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\liveMedia\WAVAudioFileSource.cpp(287,52): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  rtcp_from_spec.c
+  liveMedia.vcxproj -> D:\WorkSpace\sourceCode\live555\Live555Project\x64\Debug\liveMedia.lib

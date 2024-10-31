@@ -1,0 +1,5 @@
+﻿  DynamicRTSPServer.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\mediaServer\DynamicRTSPServer.cpp(193,53): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  live555MediaServer.cpp
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“BasicUsageEnvironment.lib”

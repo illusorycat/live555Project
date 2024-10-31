@@ -1,0 +1,12 @@
+﻿  showAudioInputPorts.cpp
+  WindowsAudioInputDevice_common.cpp
+  WindowsAudioInputDevice_mixer.cpp
+  WindowsAudioInputDevice_noMixer.cpp
+  正在生成代码...
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "public: static class AudioInputDevice * __cdecl AudioInputDevice::createNew(class UsageEnvironment &,int,unsigned char,unsigned char,unsigned int,unsigned int)" (?createNew@AudioInputDevice@@SAPAV1@AAVUsageEnvironment@@HEEII@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "public: static class AudioPortNames * __cdecl AudioInputDevice::getPortNames(void)" (?getPortNames@AudioInputDevice@@SAPAVAudioPortNames@@XZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: __thiscall WindowsAudioInputDevice::WindowsAudioInputDevice(class UsageEnvironment &,int,unsigned char,unsigned char,unsigned int,unsigned int,bool &)" (??0WindowsAudioInputDevice@@AAE@AAVUsageEnvironment@@HEEIIAA_N@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: virtual __thiscall WindowsAudioInputDevice::~WindowsAudioInputDevice(void)" (??1WindowsAudioInputDevice@@EAE@XZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: static void __cdecl WindowsAudioInputDevice::initializeIfNecessary(void)" (?initializeIfNecessary@WindowsAudioInputDevice@@CAXXZ) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+WindowsAudioInputDevice_mixer.obj : warning LNK4006: "private: virtual bool __thiscall WindowsAudioInputDevice::setInputPort(int)" (?setInputPort@WindowsAudioInputDevice@@EAE_NH@Z) 已在 WindowsAudioInputDevice_noMixer.obj 中定义；已忽略第二个定义
+  WindowsAudioInputDevice.vcxproj -> D:\WorkSpace\sourceCode\live555\Live555Project\Debug\WindowsAudioInputDevice.lib

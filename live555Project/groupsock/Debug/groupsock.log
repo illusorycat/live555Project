@@ -1,0 +1,10 @@
+﻿  GroupEId.cpp
+  Groupsock.cpp
+  GroupsockHelper.cpp
+D:\WorkSpace\sourceCode\live555\Live555Project\groupsock\GroupsockHelper.cpp(1042,22): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  IOHandlers.cpp
+  NetAddress.cpp
+  NetInterface.cpp
+  正在生成代码...
+  inet.c
+  groupsock.vcxproj -> D:\WorkSpace\sourceCode\live555\Live555Project\Debug\groupsock.lib
